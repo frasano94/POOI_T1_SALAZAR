@@ -123,6 +123,7 @@
     <Compile Include="Controllers\AdministrativoController.cs" />
     <Compile Include="Controllers\EmpleadoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PlanillaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -184,6 +185,7 @@
     <Content Include="Views\Empleado\RegistrarEmpleado.cshtml" />
     <Content Include="Views\Empleado\Index.cshtml" />
     <Content Include="Views\Administrativo\RegistrarAdministrativo.cshtml" />
+    <Content Include="Views\Planilla\ListarPlanilla.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
